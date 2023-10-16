@@ -1,0 +1,12 @@
+//Junhong Liu
+
+package Stack;
+
+public interface Stackable<Item> {
+
+	void push(Item item);
+	Item pop();
+	int size();
+	boolean isEmpty();
+	
+}
