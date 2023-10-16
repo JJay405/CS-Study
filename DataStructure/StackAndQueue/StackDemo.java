@@ -4,7 +4,6 @@ public class StackDemo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
 		
 		ResizingArrayStack<String>  strStack= new ResizingArrayStack<>(10);
 		
@@ -19,12 +18,9 @@ public class StackDemo {
 			
 		}
 		
-		while((!charStack.isEmpty())) {
+		while((!charStack.isEmpty())) {		
 			
-			
-				str2=str2+charStack.pop();
-				
-			
+			str2=str2+charStack.pop();				
 		}
 		
 		
