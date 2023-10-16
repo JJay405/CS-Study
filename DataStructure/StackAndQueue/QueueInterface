@@ -2,7 +2,6 @@ package Stack;
 
 public interface QueueInterface<Item> {
 
-
 		Item dequeue();
 		
 		void enqueue(Item item);
