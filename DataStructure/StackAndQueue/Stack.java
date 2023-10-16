@@ -1,7 +1,5 @@
 //Junhong Liu
-
 package Stack;
-
 
 public class Stack<Item> implements Stackable<Item> 
 {
